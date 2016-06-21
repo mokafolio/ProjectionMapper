@@ -4,13 +4,13 @@ boolean bSaveFrame = false;
 void setup()
 {
   size(1280, 720);
+  smooth(8);
   points = new ArrayList<PVector>();
 }
 
 void draw()
 {  
   background(0);
-  smooth(8);
   fill(255);
   noStroke();
   beginShape();
